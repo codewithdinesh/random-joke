@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+.sub_container {
+  background-color: #E6EBEE;
+  border-radius: 10px;
+  padding: 10px;
+  width: 350px;
+  margin: 10px auto;
+}
+
+.card {
+  background-color: #393B45;
+  height: auto;
+  max-width: 350px;
+  /* height: 100vh; */
+  margin: 1vh auto;
+  border-radius: 8px;
+  padding-bottom: 1px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px #4069E2;
+}
+
+.heading h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-color: #E6EBEE;
+  border-radius: 15px 25px 0 0;
+  color: #393B45;
+  padding: 10px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.joke {
+  color: white;
+  text-align: center;
+  width: 100%;
+  max-height: 350px;
+  background-color: #5e6a72a9;
+  border-radius: 5px 5px 15px 15px;
+  font-family: 'Montserrat', sans-serif;
+  /* color: #393B45; */
+  font-weight: 700;
+  margin: 0;
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 1px; */
+  
+  text-align: left;
+  padding: 10px;
+  overflow: auto;
+}
+
+.joke::-webkit-scrollbar {
+  width: 10px;
+  /* width of the entire scrollbar */
+}
+
+.joke::-webkit-scrollbar-track {
+  background: #5e6a7286;
+}
+
+.joke::-webkit-scrollbar-thumb {
+  background-color: rgba(223, 223, 230, 0.671);
+  border-radius: 10px;
+}
+
+.get_joke_block {
+  text-align: center;
+  margin: 5px;
+}
+.loading{
+  width: 2rem;
+  height: 2rem;
+  border: 5px solid #cccdd3;
+  border-top: 6px solid rgb(255, 2, 57);
+  border-radius: 100%;
+  margin: auto;
+  visibility: hidden;
+  display: none;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  0%{
+      transform: rotate(0deg);
+
+  }
+  100%{
+      transform:rotate(360deg);
+  }
+}
